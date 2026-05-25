@@ -17,6 +17,14 @@ let
     buildLinux rec {
       inherit stdenv lib;
 
+  rustc = pkgs.rustc_1_84;
+  cargo = pkgs.cargo_1_84;
+
+  rustPlatform = pkgs.makeRustPlatform {
+    cargo = pkgs.cargo_1_84;
+    rustc = pkgs.rustc_1_84;
+  };
+
       ignoreConfigErrors = true;
       pname = "linux-asahi";
       version = "6.18.4";
