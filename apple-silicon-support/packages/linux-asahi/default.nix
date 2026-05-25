@@ -20,15 +20,15 @@ let
 
       ignoreConfigErrors = true;
       pname = "linux-asahi";
-      version = "7.0.10";
+      version = "6.18.4";
       modDirVersion = version;
-      extraMeta.branch = "7.0";
+      extraMeta.branch = "6.18";
       
       src = fetchFromGitHub {
         owner = "TheMorc";
         repo = "asahilinux-test";
-        rev = "asahi-wip";
-        hash = "sha256-PNBhdBs8xl83u4OzmQt4sTBr/akXNWVLfr2fokgla2s=";
+        rev = "tbt-wip";
+        hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaAAAAA=";
       };
 
       kernelPatches = [
