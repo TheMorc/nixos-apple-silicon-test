@@ -24,10 +24,10 @@ let
       extraMeta.branch = "7.0";
 
       src = fetchFromGitHub {
-        owner = "AsahiLinux";
-        repo = "linux";
-        tag = "asahi-7.0.10-2";
-        hash = "sha256-TbSciNtqe1hvwIC2V5G2A0bh0eMSxeQxjzXOaPnYa1c=";
+        owner = "TheMorc";
+        repo = "asahilinux-test";
+        tag = "tbt-wip";
+        hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
       };
 
       kernelPatches = [
