@@ -27,8 +27,8 @@ let
       src = fetchFromGitHub {
         owner = "TheMorc";
         repo = "asahilinux-test";
-        tag = "asahi-wip";
-        hash = "sha256-434v/1rs0erAM/2T8n8NxsgG4FyUj/LANGJke7JoNXI=";
+        rev = "asahi-wip";
+        hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
       };
 
       kernelPatches = [
