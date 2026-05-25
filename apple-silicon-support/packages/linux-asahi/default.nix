@@ -27,7 +27,7 @@ let
         owner = "TheMorc";
         repo = "asahilinux-test";
         tag = "tbt-wip";
-        hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+        hash = "sha256-434v/1rs0erAM/2T8n8NxsgG4FyUj/LANGJke7JoNXI=";
       };
 
       kernelPatches = [
