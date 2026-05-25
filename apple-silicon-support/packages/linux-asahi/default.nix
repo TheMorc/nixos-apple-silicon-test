@@ -1,5 +1,6 @@
 {
-  lib,
+  pkgs,
+lib,
   callPackage,
   linuxPackagesFor,
   _kernelPatches ? [ ],
