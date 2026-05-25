@@ -18,6 +18,7 @@ let
     buildLinux rec {
       inherit stdenv lib;
 
+      ignoreConfigErrors = true;
       pname = "linux-asahi";
       version = "6.18.4";
       modDirVersion = version;
