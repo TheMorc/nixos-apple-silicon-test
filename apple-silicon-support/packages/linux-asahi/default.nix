@@ -20,14 +20,14 @@ let
 
       ignoreConfigErrors = true;
       pname = "linux-asahi";
-      version = "6.18.4";
+      version = "7.0.10";
       modDirVersion = version;
-      extraMeta.branch = "6.18";
-
+      extraMeta.branch = "7.0";
+      
       src = fetchFromGitHub {
         owner = "TheMorc";
         repo = "asahilinux-test";
-        tag = "tbt-wip";
+        tag = "asahi-wip";
         hash = "sha256-434v/1rs0erAM/2T8n8NxsgG4FyUj/LANGJke7JoNXI=";
       };
 
