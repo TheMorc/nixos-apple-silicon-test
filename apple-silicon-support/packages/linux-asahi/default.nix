@@ -28,7 +28,7 @@ let
         owner = "TheMorc";
         repo = "asahilinux-test";
         rev = "asahi-wip";
-        hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+        hash = "sha256-PNBhdBs8xl83u4OzmQt4sTBr/akXNWVLfr2fokgla2s=";
       };
 
       kernelPatches = [
