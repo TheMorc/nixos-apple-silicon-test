@@ -53,6 +53,10 @@ let
 
             APPLE_PMGR_MISC = yes;
             APPLE_PMGR_PWRSTATE = yes;
+
+            USB4_APPLE_SOC = yes;
+            USB4 = yes;
+            THUNDERBOLT = yes;
           };
           features.rust = true;
         }
