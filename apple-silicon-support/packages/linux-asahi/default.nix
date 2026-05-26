@@ -54,6 +54,9 @@ let
             APPLE_PMGR_MISC = yes;
             APPLE_PMGR_PWRSTATE = yes;
 
+            TYPEC = yes;
+            TYPEC_TCPM = yes;
+            TYPEC_TBT_ALTMODE = yes;
             USB4_APPLE_SOC = yes;
             USB4 = yes;
             THUNDERBOLT = yes;
