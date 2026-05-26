@@ -18,25 +18,17 @@ let
     buildLinux rec {
       inherit stdenv lib;
 
-  rustc = pkgs.rustc_1_84;
-  cargo = pkgs.cargo_1_84;
-
-  rustPlatform = pkgs.makeRustPlatform {
-    cargo = pkgs.cargo_1_84;
-    rustc = pkgs.rustc_1_84;
-  };
-
       ignoreConfigErrors = true;
       pname = "linux-asahi";
-      version = "6.18.4";
+      version = "7.0.10";
       modDirVersion = version;
-      extraMeta.branch = "6.18";
+      extraMeta.branch = "7.0";
 
       src = fetchFromGitHub {
-        owner = "AsahiLinux";
-        repo = "linux";
-        tag = "asahi-6.18.4-1";
-        hash = "sha256-qWY74VJ5Kn2V/MdFlkgwQ5ILtTV5W8ibOw9zkBeu50E=";
+        owner = "TheMorc";
+        repo = "asahilinux-test";
+        tag = "asahi-wip";
+        hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
       };
 
       kernelPatches = [
