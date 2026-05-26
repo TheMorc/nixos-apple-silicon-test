@@ -27,7 +27,7 @@ let
       src = fetchFromGitHub {
         owner = "TheMorc";
         repo = "asahilinux-test";
-        tag = "asahi-wip";
+        rev = "asahi-wip";
         hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
       };
 
